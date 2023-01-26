@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./big-carrs.component.css']
 })
 export class BigCarrsComponent {
+  
   title:string ='Найбільший автомобіль' 
   cost:string ='$'
   tip:string ='Надважкий'

@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./buttonmenu.component.css']
 })
 export class ButtonmenuComponent {
-уеканпгршощл
+
 }
