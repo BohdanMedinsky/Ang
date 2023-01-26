@@ -1,0 +1,14 @@
+.link-wrap{
+    display: flex;
+    list-style: none;
+    margin-top: 40px;
+    margin-left: 350px;
+    gap: 20px;
+}
+.link{
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(215, 210, 210);
+    background-color: rgb(89, 28, 34);
+}
+

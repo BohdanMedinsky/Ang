@@ -8,6 +8,9 @@ import { FirstComponent } from './first/first.component';
 import { SecondComponent } from './second/second.component';
 import { HobbyComponent } from './hobby/hobby.component';
 import { ButtonmenuComponent } from './buttonmenu/buttonmenu.component';
+import { BigAirComponent } from './big-air/big-air.component';
+import { BigCarrsComponent } from './big-carrs/big-carrs.component';
+import { BigShipComponent } from './big-ship/big-ship.component';
 
 const routes: Routes =[
   {path:'Bill_Gates', component:  FirstComponent},
@@ -20,7 +23,10 @@ const routes: Routes =[
     FirstComponent,
     SecondComponent,
     HobbyComponent,
-    ButtonmenuComponent
+    ButtonmenuComponent,
+    BigAirComponent,
+    BigCarrsComponent,
+    BigShipComponent
   ],
   imports: [
     BrowserModule,
