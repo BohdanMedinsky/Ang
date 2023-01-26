@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { FirstComponent } from './first/first.component';
 import { SecondComponent } from './second/second.component';
 import { HobbyComponent } from './hobby/hobby.component';
+import { ButtonmenuComponent } from './buttonmenu/buttonmenu.component';
 
 const routes: Routes =[
   {path:'Bill_Gates', component:  FirstComponent},
@@ -18,7 +19,8 @@ const routes: Routes =[
     AppComponent,
     FirstComponent,
     SecondComponent,
-    HobbyComponent
+    HobbyComponent,
+    ButtonmenuComponent
   ],
   imports: [
     BrowserModule,
