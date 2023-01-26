@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./big-ship.component.css']
 })
 export class BigShipComponent {
-
+  title:string ='Найбільший корабель' 
+  cost:string ='1млрд євро'
+  tip:string ='Лайнер'
+  width:string ='66 м '
+  height:string ='382 м'
+  top:string ='70 м'
 }
