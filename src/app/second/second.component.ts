@@ -12,4 +12,5 @@ export class SecondComponent {
 salary: number = 2000
 course: number = 0.50
 age: number = 21
+
 }
