@@ -13,7 +13,13 @@ import { BigAirComponent } from './big-air/big-air.component';
 import { BaseComponent } from './base/base.component';
 import { ButtonMenuComponent } from './button-menu/button-menu.component';
 
-const routes: Routes =[
+const routes: Routes =[{path: '', component: BaseComponent,
+children:[
+  {path: 'Air', component:  BigAirComponent},
+  {path: 'Car', component: BigCarComponent},
+  {path: 'Ship', component:  BigShipComponent}
+]
+},
   {path:'Bill_Gates', component:  FirstComponent},
   {path:'Rezume', component:  SecondComponent},
   {path:'Hobby', component: HobbyComponent},

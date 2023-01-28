@@ -1,7 +1,7 @@
 .link-wrap{
     display: flex;
     list-style: none;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-left: 200px;
 }
 .link{
@@ -16,4 +16,7 @@
 }
 .active{
     background-color: rgb(40, 56, 149);
+}
+li{
+    margin: 0 10px;
 }
