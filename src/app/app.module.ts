@@ -11,6 +11,7 @@ import { ButtonmenuComponent } from './buttonmenu/buttonmenu.component';
 import { BigAirComponent } from './big-air/big-air.component';
 import { BigCarrsComponent } from './big-carrs/big-carrs.component';
 import { BigShipComponent } from './big-ship/big-ship.component';
+import { BaseComponent } from './base/base.component';
 
 const routes: Routes =[
   {path:'Bill_Gates', component:  FirstComponent},
@@ -26,7 +27,8 @@ const routes: Routes =[
     ButtonmenuComponent,
     BigAirComponent,
     BigCarrsComponent,
-    BigShipComponent
+    BigShipComponent,
+    BaseComponent
   ],
   imports: [
     BrowserModule,
