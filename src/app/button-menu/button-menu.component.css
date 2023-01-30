@@ -1,14 +1,15 @@
 .link-wrap{
     display: flex;
     list-style: none;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 200px;
 }
 .link{
     text-decoration: none;
     padding: 10px;
     color: #fff;
-    background-color: rgb(165, 45, 123);
+    background-color: rgb(104, 11, 72);
+   
 }
 .container{
     max-width: 1200px;
