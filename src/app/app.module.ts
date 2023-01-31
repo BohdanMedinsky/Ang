@@ -12,6 +12,7 @@ import { BigShipComponent } from './big-ship/big-ship.component';
 import { BigAirComponent } from './big-air/big-air.component';
 import { BaseComponent } from './base/base.component';
 import { ButtonMenuComponent } from './button-menu/button-menu.component';
+import { GalleryComponent } from './gallery/gallery.component';
 
 const routes: Routes =[{path: '', component: BaseComponent,
 children:[
@@ -35,6 +36,7 @@ children:[
     BigAirComponent,
     BaseComponent,
     ButtonMenuComponent,
+    GalleryComponent,
   ],
   imports: [
     BrowserModule,
