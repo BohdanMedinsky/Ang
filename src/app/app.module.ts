@@ -24,6 +24,7 @@ children:[
   {path:'Bill_Gates', component:  FirstComponent},
   {path:'Rezume', component:  SecondComponent},
   {path:'Hobby', component: HobbyComponent},
+  {path:'Gallery', component: GalleryComponent},
 ]
 @NgModule({
   declarations: [
