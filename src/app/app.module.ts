@@ -13,6 +13,8 @@ import { BigAirComponent } from './big-air/big-air.component';
 import { BaseComponent } from './base/base.component';
 import { ButtonMenuComponent } from './button-menu/button-menu.component';
 import { GalleryComponent } from './gallery/gallery.component';
+import { GalleryVanComponent } from './gallery-van/gallery-van.component';
+import { GalleryLeoComponent } from './gallery-leo/gallery-leo.component';
 
 const routes: Routes =[{path: '', component: BaseComponent,
 children:[
@@ -38,6 +40,8 @@ children:[
     BaseComponent,
     ButtonMenuComponent,
     GalleryComponent,
+    GalleryVanComponent,
+    GalleryLeoComponent,
   ],
   imports: [
     BrowserModule,
