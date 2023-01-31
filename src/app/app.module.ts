@@ -22,11 +22,16 @@ children:[
   {path: 'Car', component: BigCarComponent},
   {path: 'Ship', component:  BigShipComponent}
 ]
+
+
 },
   {path:'Bill_Gates', component:  FirstComponent},
   {path:'Rezume', component:  SecondComponent},
   {path:'Hobby', component: HobbyComponent},
   {path:'Gallery', component: GalleryComponent},
+
+  {path: 'Van', component:  GalleryVanComponent},
+  {path: 'Leo', component: GalleryLeoComponent},
 ]
 @NgModule({
   declarations: [
