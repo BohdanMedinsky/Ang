@@ -8,13 +8,16 @@ import { Component } from '@angular/core';
 export class GalleryLeoComponent {
   Name:string ='Пані з Горностаєм' 
   avtor:string ='Леонардо Да-Вінчі ' 
- maps:string ='Музей Чарторийський' 
+ maps:string ='Музей Чарторийський'
+ price:number = 150000000 
 
   name:string ='Спаситель Світу' 
   Avtor:string ='Леонардо Да-Вінчі ' 
   Maps:string ='Невідоме' 
+  prices:number = 450000000 
 
   Names:string ='Іван Хреститель' 
   avtors:string ='Леонардо Да-Вінчі ' 
  mapss:string ='Лувр'
+ pricec:number = 120000000 
 }

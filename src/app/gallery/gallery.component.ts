@@ -8,9 +8,11 @@ import { Component } from '@angular/core';
 export class GalleryComponent {
   Name:string ='Зоряна ніч' 
   avtor:string ='Вінсент Ван Гог ' 
-  maps:string ='США, Нью-Йорк' 
+  maps:string ='США, Нью-Йорк'
+  price:number = 100000000 
 
   name:string ='Тайна Вечеря' 
   Avtor:string ='Леона́рдо да Ві́нчі ' 
-  Maps:string ='Санта Марія' 
+  Maps:string ='Санта Марія'
+  pricec:number = 50000000 
 }
