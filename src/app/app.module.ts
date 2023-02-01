@@ -16,6 +16,9 @@ import { GalleryComponent } from './gallery/gallery.component';
 import { GalleryVanComponent } from './gallery-van/gallery-van.component';
 import { GalleryLeoComponent } from './gallery-leo/gallery-leo.component';
 import { AngularComponent } from './angular/angular.component';
+import { AngularTrComponent } from './angular-tr/angular-tr.component';
+import { AngularKyivComponent } from './angular-kyiv/angular-kyiv.component';
+import { AngularShComponent } from './angular-sh/angular-sh.component';
 
 const routes: Routes =[{path: '', component: BaseComponent,
 children:[
@@ -51,6 +54,9 @@ children:[
     GalleryVanComponent,
     GalleryLeoComponent,
     AngularComponent,
+    AngularTrComponent,
+    AngularKyivComponent,
+    AngularShComponent,
   ],
   imports: [
     BrowserModule,
