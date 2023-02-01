@@ -23,12 +23,18 @@
             <a class="nav-link" href="Hobby" routerLinkActive="active_four">hobby</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Gallery" routerLinkActive="active_five">Gallery</a>
+            <a class="nav-link" href="Gallery" routerLinkActive="active_five"><strong>Gallery</strong></a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
+  
+  <ul>
+    <li *ngFor="let item of items">{{item}}</li>
+  </ul>
+
+
 
 
 <!-- <app-first>bill</app-first>  

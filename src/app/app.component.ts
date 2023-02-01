@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'to-do-list';
+  items =["Виберіть Gallery", "Ознайомтесь з 2 картинами ", "Є можливість натиснути на кнопку і переглянути 3 найкращих роботи", "Для повернення знову натисніть Gallery у верх.меню"]
 }
