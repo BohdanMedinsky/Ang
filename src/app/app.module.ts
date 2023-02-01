@@ -15,6 +15,7 @@ import { ButtonMenuComponent } from './button-menu/button-menu.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { GalleryVanComponent } from './gallery-van/gallery-van.component';
 import { GalleryLeoComponent } from './gallery-leo/gallery-leo.component';
+import { AngularComponent } from './angular/angular.component';
 
 const routes: Routes =[{path: '', component: BaseComponent,
 children:[
@@ -32,6 +33,8 @@ children:[
 
   {path: 'Van', component:  GalleryVanComponent},
   {path: 'Leo', component: GalleryLeoComponent},
+
+  {path:'Angular', component:  AngularComponent},
 ]
 @NgModule({
   declarations: [
@@ -47,6 +50,7 @@ children:[
     GalleryComponent,
     GalleryVanComponent,
     GalleryLeoComponent,
+    AngularComponent,
   ],
   imports: [
     BrowserModule,

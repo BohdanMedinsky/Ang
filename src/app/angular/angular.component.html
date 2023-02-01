@@ -1,0 +1,41 @@
+<div class="wrapper">
+    <div class="text">
+      <h1>Туреччина</h1>
+      <p> Площа :{{Pl}}</p>
+      <p>Населення:{{Na}}</p>
+      <p> Дата виїзду :{{Dt}}</p>
+      <a [routerLink]="''" class="btn btn-primary"  routerLinkActive="active">Детальніше про тур</a>
+    </div>
+    <div class="image">
+        <img src="../../assets/tur.jfif" height="400px" width="500px" alt="photo">
+    </div>
+  </div>
+
+
+    <div class="wrapper1">
+      <div class="image1">
+        <img src="../../assets/kyiv.jfif" height="400px" width="500px" alt="photo">
+    </div>
+    <div class="text1">
+      <h1>Київ</h1>
+      <p> Площа :{{PlKyiv}}</p>
+      <p>Населення:{{NaKyiv}}</p>
+      <p> Дата виїзду :{{DtKyiv}}</p>
+      <a [routerLink]="''" class="btn btn-primary"  routerLinkActive="active">Детальніше про тур</a>
+    </div>
+    </div>
+
+
+    <div class="wrapper2">
+      <div class="text2">
+        <h1>США</h1>
+        <p> Площа :{{PlSh}}</p>
+        <p>Населення:{{NaSh}}</p>
+        <p> Дата виїзду :{{DtSh}}</p>
+        <a [routerLink]="''" class="btn btn-primary"  routerLinkActive="active">Детальніше про тур</a>
+      </div>
+      <div class="image2">
+        <img src="../../assets/sha.jfif" height="400px" width="500px"  alt="photo">
+      </div>
+    </div>
+    <router-outlet></router-outlet>
