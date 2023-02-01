@@ -32,12 +32,15 @@ children:[
   {path:'Bill_Gates', component:  FirstComponent},
   {path:'Rezume', component:  SecondComponent},
   {path:'Hobby', component: HobbyComponent},
-  {path:'Gallery', component: GalleryComponent},
 
+  {path:'Gallery', component: GalleryComponent},
   {path: 'Van', component:  GalleryVanComponent},
   {path: 'Leo', component: GalleryLeoComponent},
 
   {path:'Angular', component:  AngularComponent},
+  {path:'Kyiv', component:  AngularKyivComponent},
+  {path:'Tr', component:  AngularTrComponent},
+  {path:'Sh', component:  AngularShComponent},
 ]
 @NgModule({
   declarations: [

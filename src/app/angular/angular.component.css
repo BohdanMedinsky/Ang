@@ -8,7 +8,8 @@
 .text{
     padding: 1em;
     height: 400px;
-    padding: 1em;   
+    padding: 1em; 
+    margin-left: 150px; 
 }
 
 .img {
@@ -30,6 +31,7 @@
     height:400px;
     overflow: hidden;
    
+   
 }
 
 .img1{
@@ -50,6 +52,8 @@
     padding: 1em;
     height: 400px;
     overflow: hidden;
+    margin-left: 150px; 
+  
 }
 
 .img2 {
